@@ -1,0 +1,692 @@
+/*css media query start*/
+
+
+
+/****
+ * 
+ * screen resolution: 279px to 319 px
+ * most of the folding phone- galaxy folding phone
+ * 
+ * */
+@media (min-width: 279px) and (max-width: 319px){
+
+	.header .navbar-toggler{
+		background: #d54c63;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 11px;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+		background: url(../images/line.png) left bottom no-repeat;
+    	
+	}
+	.header .navbar-nav .nav-link.active{
+		background: url(../images/line.png) left bottom no-repeat;
+	}
+	.header .btn-light{
+		margin: 0px;
+	}
+	.banner{
+		padding: 40px 0px;
+		margin:0px 0px 270px;
+	}
+	.banner h1{
+		font-size: 22px;
+		text-align: center;
+	}
+	.banner .sec-line{
+		margin: 0px 10px;
+	}
+	.banner .action-button{
+		text-align: center;
+	}
+	.banner .action-button .btn-primary{
+		padding: 7px 10px;
+		margin: 30px 0px 0px;
+	}
+	.banner .txt{
+		margin: 0px;
+	}
+	.banner p{
+		text-align: center;
+		font-size: 10px;
+	}
+	.feature{
+		padding: 30px 0px;
+		margin: -300px 0px 0px;
+	}
+	.feature .f-txt{
+		margin: 0px;
+	}
+	.feature .fe-text{
+		padding: 0px;
+	}
+	.feature h2 {
+		font-size: 14px;
+		text-align: center;
+	}
+	.feature p {
+		font-size: 10px;
+		text-align: center;
+	}
+	.pink{
+		padding: 30px 0px;
+	}
+	.pink h1{
+		font-size: 22px;
+	}
+	.pink p{
+		font-size: 10px;
+	}
+	.pink .action-button .btn-primary{
+		padding: 7px 10px;
+		font-size: 11px;
+	}
+	.about{
+		padding: 30px 0px;
+	}
+	.about-img{
+		width: 255px;
+		height: 200px;
+	}
+	.about h2{
+		font-size: 12px;
+	}
+	.about h6{
+		font-size: 6px;
+	}
+	.about p{
+		font-size: 5px;
+	}
+	.base{
+		padding: 30px 0px;
+	}
+	.base h1{
+		font-size: 22px;
+	}
+	.base h6{
+		font-size: 8px;
+	}
+	.base .action-button .btn-primary {
+		padding: 7px 10px;
+		font-size: 11px;
+	}
+	.base p{
+		font-size: 9px;
+	}
+	.post{
+		padding: 30px 0px;
+	}
+	.post .action-button .btn-primary {
+		padding: 7px 10px;
+		font-size: 11px;
+	}
+	.post h1{
+		font-size: 18px;
+	}
+	.post p{
+		font-size: 9px;
+		margin: 35px 0px 0px 7px;
+	}
+	.abot{
+		padding: 30px 0px;
+	}
+	.abot h2{
+		font-size: 14px;
+	}
+	.abot h6{
+		font-size: 7px;
+	}
+	.abot p{
+		font-size: 6px;
+		margin: 0px 0px 15px;
+	}
+	.abot-img{
+		width: 255px;
+		height: 200;
+	}
+	.contact{
+		padding: 30px 0px;
+	}
+	.contact h1{
+		font-size: 14px;
+	}
+	.contact p{
+		font-size: 10px;
+	}
+	.contact a{
+		font-size: 10px;
+	}
+	.footer{
+		padding: 15px 0px;
+	}
+	.footer p{
+		font-size: 11px;
+	}
+
+
+}
+
+
+/****
+ * 
+ * screen resolution: 320px to 480 px
+ * most of the mobile phone
+ * 
+ * */
+@media (min-width: 320px) and (max-width: 480px){
+
+	.header .navbar-toggler{
+		background: #d54c63;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 12px;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+		background: url(../images/line.png) left bottom no-repeat;
+    	
+	}
+	.header .navbar-nav .nav-link.active{
+		background: url(../images/line.png) left bottom no-repeat;
+	}
+	.header .btn-light{
+		margin: 0px;
+	}
+	.banner{
+		padding: 40px 0px;
+		margin:0px 0px 270px;
+	}
+	.banner h1{
+		font-size: 28px;
+		text-align: center;
+	}
+	.banner .sec-line{
+		margin: 0px 10px;
+	}
+	.banner .action-button{
+		text-align: center;
+	}
+	.banner .action-button .btn-primary{
+		padding: 8px 11px;
+		margin: 30px 0px 0px;
+	}
+	.banner .txt{
+		margin: 0px;
+	}
+	.banner p{
+		text-align: center;
+		font-size: 12px;
+	}
+	.feature{
+		padding: 30px 0px;
+		margin: -300px 0px 0px;
+	}
+	.feature .f-txt{
+		margin: 0px;
+	}
+	.feature .fe-text{
+		padding: 0px;
+	}
+	.feature h2 {
+		font-size: 16px;
+		text-align: center;
+	}
+	.feature p {
+		font-size: 12px;
+		text-align: center;
+	}
+	.pink{
+		padding: 30px 0px;
+	}
+	.pink h1{
+		font-size: 28px;
+	}
+	.pink p{
+		font-size: 12px;
+	}
+	.pink .action-button .btn-primary{
+		padding: 8px 11px;
+		font-size: 12px;
+	}
+	.about{
+		padding: 30px 0px;
+	}
+	.about-img{
+		width: 300px;
+		height: auto;
+		margin: 0px 0px 0px 33px;
+	}
+	.about h2{
+		font-size: 16px;
+	}
+	.about h6{
+		font-size: 9px;
+	}
+	.about p{
+		font-size: 8px;
+	}
+	.base{
+		padding: 30px 0px;
+	}
+	.base h1{
+		font-size: 28px;
+	}
+	.base h6{
+		font-size: 9px;
+	}
+	.base .action-button .btn-primary {
+		padding: 8px 11px;
+		font-size: 12px;
+	}
+	.base p{
+		font-size: 10px;
+	}
+	.post{
+		padding: 30px 0px;
+	}
+	.post .action-button .btn-primary {
+		padding: 8px 11px;
+		font-size: 12px;
+	}
+	.post h1{
+		font-size: 24px;
+	}
+	.post p{
+		font-size: 10px;
+		margin: 35px 0px 0px;
+	}
+	.abot{
+		padding: 30px 0px;
+	}
+	.abot h2{
+		font-size: 18px;
+		text-align: center;
+	}
+	.abot h6{
+		font-size: 10px;
+		margin: 0px 0px 0px 20px;
+	}
+	.abot p{
+		font-size: 8px;
+		margin: 10px 0px 15px 20px;
+	}
+	.abot-img{
+		width: 310px;
+		height: auto;
+		margin: 0px 0px 0px 40px;
+	}
+	.contact{
+		padding: 30px 0px;
+	}
+	.contact h1{
+		font-size: 18px;
+	}
+	.contact p{
+		font-size: 12px;
+	}
+	.contact a{
+		font-size: 12px;
+	}
+	.footer{
+		padding: 15px 0px;
+	}
+	.footer p{
+		font-size: 12px;
+	}
+
+
+}
+
+/****
+ * 
+ * screen resolution: 481px to 767 px
+ * most of the mobile phone and low resolution tab
+ * 
+ * */
+@media (min-width: 481px) and (max-width: 767px){
+
+	.header .navbar-toggler{
+		background: #d54c63;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 13px;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+		background: url(../images/line.png) left bottom no-repeat;
+    	
+	}
+	.header .navbar-nav .nav-link.active{
+		background: url(../images/line.png) left bottom no-repeat;
+	}
+	.header .btn-light{
+		margin: 0px;
+	}
+	.banner{
+		padding: 50px 0px;
+		margin:0px 0px 270px;
+	}
+	.banner h1{
+		font-size: 30px;
+		text-align: center;
+	}
+	.banner .sec-line{
+		margin: 0px 20px;
+	}
+	.banner .action-button{
+		text-align: center;
+	}
+	.banner .action-button .btn-primary{
+		padding: 9px 12px;
+		margin: 40px 0px 0px;
+	}
+	.banner .txt{
+		margin: 0px;
+	}
+	.banner p{
+		text-align: center;
+		font-size: 13px;
+	}
+	.feature{
+		padding: 40px 0px;
+		margin: -300px 0px 0px;
+	}
+	.feature .f-txt{
+		margin: 0px;
+	}
+	.feature .fe-text{
+		padding: 0px;
+	}
+	.feature h2 {
+		font-size: 18px;
+		text-align: center;
+	}
+	.feature p {
+		font-size: 13px;
+		text-align: center;
+	}
+	.pink{
+		padding: 40px 0px;
+	}
+	.pink h1{
+		font-size: 30px;
+	}
+	.pink p{
+		font-size: 13px;
+	}
+	.pink .action-button .btn-primary{
+		padding: 9px 12px;
+		font-size: 13px;
+	}
+	.about{
+		padding: 40px 0px;
+	}
+	.about-img{
+		width: 475px;
+		height: auto;
+		margin: 0px 0px 0px 20px;
+	}
+	.about h2{
+		font-size: 26px;
+	}
+	.about h6{
+		font-size: 14px;
+	}
+	.about p{
+		font-size: 11px;
+	}
+	.base{
+		padding: 40px 0px;
+	}
+	.base h1{
+		font-size: 30px;
+	}
+	.base h6{
+		font-size: 10px;
+	}
+	.base .action-button .btn-primary {
+		padding: 9px 12px;
+		font-size: 13px;
+	}
+	.base p{
+		font-size: 11px;
+	}
+	.post{
+		padding: 40px 0px;
+	}
+	.post .action-button .btn-primary {
+		padding: 9px 12px;
+		font-size: 13px;
+	}
+	.post h1{
+		font-size: 26px;
+	}
+	.post p{
+		font-size: 11px;
+		margin: 35px 0px 0px -20px;
+	}
+	.abot{
+		padding: 40px 0px;
+	}
+	.abot h2{
+		font-size: 26px;
+		text-align: center;
+	}
+	.abot h6{
+		font-size: 14px;
+		margin: 0px 0px 0px 22px;
+	}
+	.abot p{
+		font-size: 12px;
+		margin: 10px 0px 15px 22px;
+	}
+	.abot-img{
+		width: 475px;
+		height: auto;
+		margin: 0px 0px 0px 20px;
+	}
+	.contact{
+		padding: 40px 0px;
+	}
+	.contact h1{
+		font-size: 24px;
+	}
+	.contact p{
+		font-size: 13px;
+	}
+	.contact a{
+		font-size: 13px;
+	}
+	.footer{
+		padding: 15px 0px;
+	}
+	.footer p{
+		font-size: 13px;
+	}
+}
+
+/****
+ * 
+ * screen resolution: 768px to 1024 px
+ * most of the tablests, notebook, ipad
+ * 
+ * */
+@media (min-width: 768px) and (max-width: 1024px){
+
+	.header .navbar-toggler{
+		background: #d54c63;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 14px;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+		background: url(../images/line.png) left bottom no-repeat;
+    	
+	}
+	.header .navbar-nav .nav-link.active{
+		background: url(../images/line.png) left bottom no-repeat;
+	}
+	.header .btn-light{
+		margin: 0px;
+	}
+	.banner{
+		padding: 60px 0px;
+		margin:0px 0px 270px;
+	}
+	.banner h1{
+		font-size: 32px;
+		text-align: center;
+	}
+	.banner .sec-line{
+		margin: 0px 30px;
+	}
+	.banner .action-button{
+		text-align: center;
+	}
+	.banner .action-button .btn-primary{
+		padding: 12px 15px;
+		margin: 40px 0px 0px;
+	}
+	.banner .txt{
+		margin: 0px;
+	}
+	.banner p{
+		text-align: center;
+		font-size: 14px;
+	}
+	.feature{
+		padding: 50px 0px;
+		margin: -300px 0px 0px;
+	}
+	.feature .f-txt{
+		margin: 0px;
+	}
+	.feature .fe-text{
+		padding: 0px;
+	}
+	.feature h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.feature p {
+		font-size: 14px;
+		text-align: center;
+	}
+	.pink{
+		padding: 50px 0px;
+	}
+	.pink h1{
+		font-size: 32px;
+	}
+	.pink p{
+		font-size: 14px;
+	}
+	.pink .action-button .btn-primary{
+		padding: 12px 15px;
+		font-size: 14px;
+	}
+	.about{
+		padding: 50px 0px;
+	}
+	.about-img{
+		width: 655px;
+		height: 400px;
+		margin: 0px 0px 0px 20px;
+	}
+	.about h2{
+		font-size: 36px;
+	}
+	.about h6{
+		font-size: 18px;
+	}
+	.about p{
+		font-size: 16px;
+	}
+	.base{
+		padding: 50px 0px;
+	}
+	.base h1{
+		font-size: 32px;
+	}
+	.base h6{
+		font-size: 12px;
+	}
+	.base .action-button .btn-primary {
+		padding: 12px 15px;
+		font-size: 13px;
+	}
+	.base p{
+		font-size: 12px;
+	}
+	.post{
+		padding: 50px 0px;
+	}
+	.post .action-button .btn-primary {
+		padding: 12px 15px;
+		font-size: 13px;
+	}
+	.post h1{
+		font-size: 28px;
+	}
+	.post p{
+		font-size: 12px;
+		margin: 35px 0px 0px -50px;
+	}
+	.abot{
+		padding: 50px 0px;
+	}
+	.abot h2{
+		font-size: 37px;
+		text-align: center;
+	}
+	.abot h6{
+		font-size: 18px;
+		margin: 0px 0px 0px 22px;
+	}
+	.abot p{
+		font-size: 16px;
+		margin: 10px 0px 35px 22px;
+	}
+	.abot-img{
+		width: 655px;
+		height: 400px;
+		margin: 0px 0px 0px 20px;
+	}
+	.contact{
+		padding: 40px 0px;
+	}
+	.contact h1{
+		font-size: 26px;
+	}
+	.contact p{
+		font-size: 14px;
+	}
+	.contact a{
+		font-size: 14px;
+	}
+	.footer{
+		padding: 15px 0px;
+	}
+	.footer p{
+		font-size: 14px;
+	}
+}
